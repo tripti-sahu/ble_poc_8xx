@@ -1,0 +1,44 @@
+{
+	"title": "EXE001",
+	"host-objects": {
+		"mobile": {
+			"require": {
+				"type": "Appium client",
+				"deviceModel": "GooglePixel4a"
+			},
+			"config": {
+				"simulations": {
+					"BLESimulation": true,
+					"CareLinkSimulation": false
+				},
+				"flutter": {
+					"autoLaunch": true,
+					"flutter-agent-port": 1356,
+					"flutter-vm-port": 8080,
+					"flutter-tcp-port": 1346,
+					"flutter-mac-path": "/Users/vaibhavnilawar/PROJECT_8xx_NATS_TEST/",
+					"flutter-wine-path": "D:\\"
+				},
+				"capabilities": {
+					"app": "/Users/vaibhavnilawar/Downloads/app-debug-ble-latest.apk",
+					"appPackage": "com.example.ble",
+					"appActivity": "com.example.ble.MainActivity",
+					"isWine": true,
+					"autoLaunch": true,
+					"fullReset": true,
+					"newCommandTimeout": 300
+				}
+			}
+		}
+	},
+	"cases": [
+		{
+			"title": "EXE001",
+			"scenarioFile": "EXE001.js",
+			"resources": [],
+			"libraries": {
+				"BLE_8XX_CommonLib": "BLE_8XX_CommonLib/manifest.json"
+			}
+		}
+	]
+}

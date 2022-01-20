@@ -1,0 +1,6 @@
+{
+    "entity": "test library",
+    "name": "BLE_8XX_CommonLib",
+    "version": "0.0.1",
+    "source": "./test_lib.js"
+}

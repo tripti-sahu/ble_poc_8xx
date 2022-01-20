@@ -1,0 +1,33 @@
+{
+	"title": "EXE001",
+	"host-objects": {
+		"mobile": {
+			"require": {
+				"type": "Appium client",
+				"deviceModel": ""
+			},
+			"config": {
+				"flutter": {
+					"autoLaunch": true
+				},
+				"capabilities": {
+					"app": "",
+					"bundleId": "",
+					"isWine": true,
+					"takesScreenshot": true,
+					"newCommandTimeout": 300
+				}
+			}
+		}
+	},
+	"cases": [
+		{
+			"title": "EXE001",
+			"scenarioFile": "EXE001.js",
+			"resources": [],
+			"libraries": {
+				"JunoLogging_CommonLib": "JunoLogging_CommonLib/manifest.json"
+			}
+		}
+	]
+}

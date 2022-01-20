@@ -1,0 +1,21 @@
+{
+    "UI": {
+        "defaultBackgroundTime": 3,
+        "minLoadTime": 5,
+        "shortLoadTime": 10,
+        "elementLoadingTime": 20,
+        "loadTime": 30,
+        "longLoadTime": 60,
+        "longLoadTime2": 80,
+        "fullyLoadTime": 120,
+        "mediumTime": 180,
+        "longWait": 360,
+        "longWait2": 480,
+        "pairingTimout": 900,
+        "pairingTimoutMaxLoadTime": 990,
+        "waitCheckForUpdate": 600,
+        "communicationErrorTimeout": 1200,
+        "waitConnectionError": 190,
+        "waitForReconnectionError": 330
+    }
+}
